@@ -11,11 +11,11 @@ log/production.log   606
 public/dispatch.fcgi 705
 
 [replace]
-config/database.yml  DATABASE PROJECT_NAME
-config/database.yml  HOST     DB_HOST
-config/database.yml  USERNAME DB_USER
-config/database.yml  PASSWORD DB_PASSWORD
-public/dispatch.fcgi USER     PROJECT_NAME
+config/database.yml  DATABASE     PROJECT_NAME
+config/database.yml  HOST         DB_HOST
+config/database.yml  USERNAME     DB_USER
+config/database.yml  PASSWORD     DB_PASSWORD
+public/dispatch.fcgi PROJECT_NAME PROJECT_NAME
 
 [deploy]
 script/fluxflex-deploy
